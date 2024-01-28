@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 1/Assignment1_DiagramsForJabberPoint.asta" afterDir="false" />
-    </list>
+    <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +27,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/infxm/OneDrive/Documents/GitHub/ObjectOrientedDesign-Jabberpoint",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,6 +51,7 @@
       <updated>1706479170888</updated>
       <workItem from="1706479174124" duration="75000" />
       <workItem from="1706479328925" duration="304000" />
+      <workItem from="1706479814995" duration="146000" />
     </task>
     <servers />
   </component>
