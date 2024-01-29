@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="" />
+    <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Initial JabberPoint ClassDiagram/JabberPointClassDiagramUnedited.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/AboutBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/Accessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/BitmapItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/DemoPresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/JabberPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/KeyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/Presentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/Slide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/SlideItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/SlideViewerComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/SlideViewerFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/Style.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/TextItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2/Refactored Code/XMLAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JabberPoint Unedited/COPYRIGHT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JabberPoint Unedited/Jabberpoint.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,23 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/infxm/OneDrive/Documents/GitHub/ObjectOrientedDesign-Jabberpoint",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/infxm/OneDrive/Documents/GitHub/ObjectOrientedDesign-Jabberpoint/Assignment 2/Refactored Code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 2\Refactored Code" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 1" />
+      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 2\Initial JabberPoint ClassDiagram" />
       <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\JabberPoint Unedited" />
+      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +78,10 @@
       <workItem from="1706479174124" duration="75000" />
       <workItem from="1706479328925" duration="304000" />
       <workItem from="1706479814995" duration="146000" />
+      <workItem from="1706524805639" duration="1291000" />
+      <workItem from="1706528145520" duration="1200000" />
+      <workItem from="1706532956624" duration="11240000" />
+      <workItem from="1706548584980" duration="25000" />
     </task>
     <servers />
   </component>
