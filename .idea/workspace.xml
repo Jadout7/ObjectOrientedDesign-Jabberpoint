@@ -6,20 +6,59 @@
   <component name="ChangeListManager">
     <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagrams/UseCase_Activity_and_EstimatedClassDiagrams.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrams/UseCase_Activity_and_EstimatedClassDiagrams.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReformattingDescriptionReport/ReformatReport.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReformattingDescriptionReport/ReformatReport.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/Assignment 1/Assignment1_DiagramsForJabberPoint.asta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/Description Report/ProbelmDescriptionReport.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/Initial JabberPoint ClassDiagram/JabberPointClassDiagramUnedited.asta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/Diagrams/UseCase_Activity_and_EstimatedClassDiagrams.asta" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/Diagrams/UseCase_Activity_and_EstimatedClassDiagrams.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/BitmapItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/BitmapItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/Buttons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/Buttons.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/Errors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/Errors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/FileInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/PresentationDesign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/PresentationDesign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/SlideDesign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Constants/SlideDesign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/DemoPresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/DemoPresentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/JabberPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/JabberPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Slide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/Slide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/SlideViewerComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/SlideViewerComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/SlideViewerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/SlideViewerFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/TextItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/TextItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/XMLLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/XMLLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/src/XMLLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/testPresentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectOrientedDesign-Jabberpoint/testPresentation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedPresentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/savedPresentation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AccessorLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessorLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitmapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/Buttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Buttons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/Errors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Errors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/PresentationDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/PresentationDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/SlideDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/SlideDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoPresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JabberPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlideItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlideViewerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlideViewerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XMLLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XMLSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testPresentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testPresentation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +85,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/infxm/Downloads&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/infxm/OneDrive/Documents/GitHub/ObjectOrientedDesign-Jabberpoint&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,11 +104,11 @@
       <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 2\Refactored Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Diagrams" />
       <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint" />
+      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\src" />
+      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\src\Resources" />
+      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Diagrams" />
       <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Refactored Jabberpoint ClassDiagram" />
-      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 2\Refactored Code\Constants" />
-      <recent name="C:\Users\infxm\OneDrive\Documents\GitHub\ObjectOrientedDesign-Jabberpoint\Assignment 2\Refactored Code" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,6 +136,10 @@
       <workItem from="1706803497594" duration="262000" />
       <workItem from="1706804883362" duration="152000" />
       <workItem from="1706814745982" duration="150000" />
+      <workItem from="1707405024906" duration="4000" />
+      <workItem from="1707962495673" duration="16000" />
+      <workItem from="1713488396655" duration="5772000" />
+      <workItem from="1713615245429" duration="38490000" />
     </task>
     <servers />
   </component>

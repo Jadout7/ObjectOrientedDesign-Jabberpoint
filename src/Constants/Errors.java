@@ -1,11 +1,14 @@
 package src.Constants;
 
-public interface Errors {
-    String JABERR = "Jabberpoint Error ";
-    String IOEX = "IO Exception: ";
-    String LOADERR = "Load Error";
-    String SAVEERR = "Save Error";
-    String PCE = "Parser Configuration Error";
-    String UNKNOWNTYPE = "Unknown Element type";
-    String NFE = "Number Format Error";
+public enum Errors {
+    INSTANCE;
+
+    public static final String JABERR = "Jabberpoint Error ";
+    public static final String IOEX = "IO Exception: ";
+    public static final String LOADERR = "Load Error";
+    public static final String SAVEERR = "Save Error";
+    public static final String PCE = "Parser Configuration Error";
+    public static final String UNKNOWNTYPE = "Unknown Element type";
+    public static final String NFE = "Number Format Error";
+    public static final String SAX = "XML Parsing Error";
 }

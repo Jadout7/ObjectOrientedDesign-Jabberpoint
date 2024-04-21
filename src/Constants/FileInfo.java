@@ -1,10 +1,12 @@
 package src.Constants;
 
-public interface FileInfo {
-    String JABVERSION = "227L";
-    String JABTITLE = "Jabberpoint 1.6 - OU version";
-    String FILE = "File ";
-    String FILENOTFOUND = " not found";
-    String TESTFILE = "testPresentation.xml";
-    String SAVEFILE = "savedPresentation.xml";
+public enum FileInfo {
+    INSTANCE;
+
+    public static final String JABVERSION = "227L";
+    public static final String JABTITLE = "Jabberpoint 1.6 - OU version";
+    public static final String FILE = "File ";
+    public static final String FILENOTFOUND = " not found";
+    public static final String TESTFILE = "testPresentation.xml";
+    public static final String SAVEFILE = "savedPresentation.xml";
 }

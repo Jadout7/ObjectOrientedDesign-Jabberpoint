@@ -1,16 +1,18 @@
 package src.Constants;
 
-public interface Buttons {
-    String ABOUT = "About";
-    String FILE = "File";
-    String EXIT = "Exit";
-    String GOTO = "Go to";
-    String HELP = "Help";
-    String NEW = "New";
-    String NEXT = "Next";
-    String OPEN = "Open";
-    String PAGENR = "Page number?";
-    String PREV = "Prev";
-    String SAVE = "Save";
-    String VIEW = "View";
+public enum Buttons {
+    INSTANCE;
+
+    public static final String ABOUT = "About";
+    public static final String FILE = "File";
+    public static final String EXIT = "Exit";
+    public static final String GOTO = "Go to";
+    public static final String HELP = "Help";
+    public static final String NEW = "New";
+    public static final String NEXT = "Next";
+    public static final String OPEN = "Open";
+    public static final String PAGENR = "Page number?";
+    public static final String PREV = "Prev";
+    public static final String SAVE = "Save";
+    public static final String VIEW = "View";
 }
