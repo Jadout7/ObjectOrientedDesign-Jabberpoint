@@ -11,7 +11,7 @@ import java.awt.event.KeyAdapter;
  */
 
 public class KeyController extends KeyAdapter {
-	private SlideViewerComponent slideViewerComponent;
+	private final SlideViewerComponent slideViewerComponent;
 
 	public KeyController(SlideViewerComponent slideViewerComponent) {
 		this.slideViewerComponent = slideViewerComponent;

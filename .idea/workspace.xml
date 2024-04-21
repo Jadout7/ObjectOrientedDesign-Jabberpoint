@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReformattingDescriptionReport/ReformatReport.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReformattingDescriptionReport/ReformatReport.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savedPresentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/savedPresentation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AccessorLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessorLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitmapItem.java" afterDir="false" />
@@ -22,7 +22,6 @@
       <change beforePath="$PROJECT_DIR$/src/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/XMLLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/XMLSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLSaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testPresentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testPresentation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <workItem from="1707405024906" duration="4000" />
       <workItem from="1707962495673" duration="16000" />
       <workItem from="1713488396655" duration="5772000" />
-      <workItem from="1713615245429" duration="38768000" />
+      <workItem from="1713615245429" duration="39488000" />
     </task>
     <servers />
   </component>

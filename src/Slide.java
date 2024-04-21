@@ -14,7 +14,7 @@ import src.Constants.SlideDesign;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class Slide implements SlideDesign {
+public class Slide{
     protected String title; //The title is kept separately
     protected Vector<SlideItem> items; //The slide Items are kept in a vector
 

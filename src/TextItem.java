@@ -24,7 +24,7 @@ import src.Constants.SlideDesign;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class TextItem extends SlideItem implements SlideDesign {
+public class TextItem extends SlideItem{
 	private final String text;
 
 	//A textitem of int level with text string
@@ -79,12 +79,12 @@ public class TextItem extends SlideItem implements SlideDesign {
 	}
 
 	private List<TextLayout> getLayouts(Graphics g, Style s, float scale) {
-		List<TextLayout> layouts = new ArrayList<TextLayout>();
+		List<TextLayout> layouts = new ArrayList<>();
 		AttributedString attrStr = getAttributedString(s, scale);
 		Graphics2D g2d = (Graphics2D) g;
 		FontRenderContext frc = g2d.getFontRenderContext();
 		LineBreakMeasurer measurer = new LineBreakMeasurer(attrStr.getIterator(), frc);
-		float wrappingWidth = (Slide.WIDTH - s.indent) * scale;
+		float wrappingWidth = (SlideDesign.WIDTH - s.indent) * scale;
 		while (measurer.getPosition() < getText().length()) {
 			TextLayout layout = measurer.nextLayout(wrappingWidth);
 			layouts.add(layout);

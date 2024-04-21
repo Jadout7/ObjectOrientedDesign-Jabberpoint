@@ -11,8 +11,13 @@ class DemoPresentation implements AccessorLoader {
 
 	public void loadFile(Presentation presentation, String unusedFilename) {
 		presentation.setTitle("Demo Presentation");
-		Slide slide;
-		slide = new Slide();
+		createJabberPointSlide(presentation);
+		createLevelsAndStylesSlide(presentation);
+		createThirdSlide(presentation);
+	}
+
+	private static void createJabberPointSlide(Presentation presentation) {
+		Slide slide = new Slide();
 		slide.setTitle("JabberPoint");
 		slide.addTextItem(1, "The Java prestentation tool");
 		slide.addTextItem(2, "Copyright (c) 1996-2000: Ian Darwin");
@@ -25,8 +30,10 @@ class DemoPresentation implements AccessorLoader {
 		slide.addTextItem(3, "Previous slide: PgUp or up-arrow");
 		slide.addTextItem(3, "Quit: q or Q");
 		presentation.append(slide);
+	}
 
-		slide = new Slide();
+	private static void createLevelsAndStylesSlide(Presentation presentation) {
+		Slide slide = new Slide();
 		slide.setTitle("Demonstration of levels and styles");
 		slide.addTextItem(1, "Level 1");
 		slide.addTextItem(2, "Level 2");
@@ -36,8 +43,10 @@ class DemoPresentation implements AccessorLoader {
 		slide.addTextItem(3, "This is how level 3 looks like");
 		slide.addTextItem(4, "And this is level 4");
 		presentation.append(slide);
+	}
 
-		slide = new Slide();
+	private static void createThirdSlide(Presentation presentation) {
+		Slide slide = new Slide();
 		slide.setTitle("The third slide");
 		slide.addTextItem(1, "To open a new presentation,");
 		slide.addTextItem(2, "use File->Open from the menu.");
@@ -45,9 +54,5 @@ class DemoPresentation implements AccessorLoader {
 		slide.addTextItem(1, "This is the end of the presentation.");
 		slide.addSlideItem(new BitmapItem(1, "JabberPoint.jpg"));
 		presentation.append(slide);
-	}
-
-	public void saveFile(Presentation presentation) {
-		throw new IllegalStateException("Save As->Demo! called");
 	}
 }

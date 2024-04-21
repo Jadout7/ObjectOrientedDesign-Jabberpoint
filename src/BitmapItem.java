@@ -20,7 +20,7 @@ import src.Constants.FileInfo;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class BitmapItem extends SlideItem implements FileInfo {
+public class BitmapItem extends SlideItem{
 	private BufferedImage bufferedImage;
 	private final String imageName;
 

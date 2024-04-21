@@ -19,14 +19,14 @@ import src.Constants.*;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class MenuController extends MenuBar implements Buttons, Errors, FileInfo {
+public class MenuController extends MenuBar{
 
     private final SlideViewerComponent slideViewerComponent;
-    private Frame parent;
+    private final Frame parent;
     private MenuItem menuItem;
-    private Menu fileMenu = new Menu(Buttons.FILE);
-    private Menu viewMenu = new Menu(Buttons.VIEW);
-    private Menu helpMenu = new Menu(Buttons.HELP);
+    private final Menu fileMenu = new Menu(Buttons.FILE);
+    private final Menu viewMenu = new Menu(Buttons.VIEW);
+    private final Menu helpMenu = new Menu(Buttons.HELP);
 
     public MenuController(Frame frame, SlideViewerComponent slideViewerComponent) {
         parent = frame;
@@ -57,9 +57,24 @@ public class MenuController extends MenuBar implements Buttons, Errors, FileInfo
         viewMenu.add(menuItem = mkMenuItem(Buttons.GOTO));
         menuItem.addActionListener(actionEvent -> {
             String pageNumberStr = JOptionPane.showInputDialog(Buttons.PAGENR);
-            int pageNumber = Integer.parseInt(pageNumberStr);
-            if (pageNumber < slideViewerComponent.getPresentation().getSize() + 1) {
-                slideViewerComponent.setSlideNumber(pageNumber - 1);
+            try {
+                int totalSlides = slideViewerComponent.getPresentation().getSize();
+                int pageNumber = Integer.parseInt(pageNumberStr);
+                if (pageNumber < 1) {
+                    // If user inputs a number less than 1, go to the first slide
+                    slideViewerComponent.setSlideNumber(0);
+                }
+                else if (pageNumber > totalSlides) {
+                    // If user inputs a number greater than the total number of slides, go to the last slide
+                    slideViewerComponent.setSlideNumber(totalSlides - 1);
+                }
+                else {
+                    slideViewerComponent.setSlideNumber(pageNumber - 1);
+                }
+            }
+            catch (NumberFormatException e) {
+                // Handle the case when the input cannot be parsed into an integer
+                JOptionPane.showMessageDialog(null, "Please enter a valid slide number.", "Invalid Input", JOptionPane.ERROR_MESSAGE);
             }
         });
     }

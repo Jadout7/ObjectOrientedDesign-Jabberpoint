@@ -18,7 +18,7 @@ import java.io.IOException;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class JabberPoint implements FileInfo, Errors {
+public class JabberPoint{
 	/**
 	 * The main program
 	 */
@@ -27,7 +27,7 @@ public class JabberPoint implements FileInfo, Errors {
 		Presentation presentation = new Presentation();
 		SlideViewerFrame slideViewerFrame = new SlideViewerFrame(FileInfo.JABVERSION, presentation);
 		try {
-			if (argv.length == 0) { //a demo presentation
+			if (argv.length == 0) {
 				AccessorLoader.getDemoAccessor().loadFile(presentation, "");
 			} else {
 				new XMLLoader().loadFile(presentation, argv[0]);

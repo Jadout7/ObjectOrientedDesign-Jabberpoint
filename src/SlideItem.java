@@ -12,7 +12,8 @@ import java.awt.Graphics;
  */
 
 public abstract class SlideItem {
-	private int level; //The level of the SlideItem
+	//The level of the SlideItem
+	private final int level;
 
 	public SlideItem(int lev) {
 		level = lev;

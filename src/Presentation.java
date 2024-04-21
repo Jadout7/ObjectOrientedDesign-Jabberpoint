@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class Presentation {
 	private String showTitle; //The title of the presentation
-	private ArrayList<Slide> showList = new ArrayList<>(); //An ArrayList with slides
+	private final ArrayList<Slide> showList = new ArrayList<>(); //An ArrayList with slides
 	private int currentSlideNumber = 0; //The number of the current slide
 
 	public int getSize() {

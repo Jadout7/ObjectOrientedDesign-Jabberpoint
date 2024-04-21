@@ -15,8 +15,8 @@ import src.Constants.*;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class SlideViewerFrame extends JFrame implements SlideDesign, FileInfo {
-	private SlideViewerComponent slideViewerComponent;
+public class SlideViewerFrame extends JFrame{
+	private final SlideViewerComponent slideViewerComponent;
 
 	public SlideViewerFrame(String title, Presentation presentation) {
 		super(title);
@@ -37,9 +37,12 @@ public class SlideViewerFrame extends JFrame implements SlideDesign, FileInfo {
 			}
 		});
 		getContentPane().add(slideViewerComponent);
-		addKeyListener(new KeyController(slideViewerComponent)); //Add a controller
-		setMenuBar(new MenuController(this, slideViewerComponent));    //Add another controller
-		setSize(new Dimension(SlideDesign.WIDTH, SlideDesign.HEIGHT)); //Same sizes a slide has
+		//Add a controller
+		addKeyListener(new KeyController(slideViewerComponent));
+		//Sets a Menu
+		setMenuBar(new MenuController(this, slideViewerComponent));
+		//Sets dimensions for the slide
+		setSize(new Dimension(SlideDesign.WIDTH, SlideDesign.HEIGHT));
 		setVisible(true);
 	}
 }

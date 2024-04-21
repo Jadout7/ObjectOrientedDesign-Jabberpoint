@@ -17,12 +17,12 @@ import src.Constants.SlideDesign;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class SlideViewerComponent extends JComponent implements SlideDesign {
+public class SlideViewerComponent extends JComponent{
 
 	private Slide slide;
-	private Font labelFont;
+	private final Font labelFont;
 	private Presentation presentation;
-	private JFrame frame;
+	private final JFrame frame;
 
 	public SlideViewerComponent(Presentation pres, JFrame frame) {
 		setBackground(SlideDesign.BGCOLOR);
@@ -35,8 +35,7 @@ public class SlideViewerComponent extends JComponent implements SlideDesign {
 		return this.presentation;
 	}
 
-	// Update the slide
-	public void update(Presentation presentation, Slide data) {
+	public void updateSlide(Presentation presentation, Slide data) {
 		if (data == null) {
 			repaint();
 			return;
@@ -47,10 +46,9 @@ public class SlideViewerComponent extends JComponent implements SlideDesign {
 		frame.setTitle(presentation.getTitle());
 	}
 
-	// Set slide Number
 	public void setSlideNumber(int number) {
 		this.presentation.setCurrentSlideNumber(number);
-		this.update(presentation, this.presentation.getCurrentSlide());
+		this.updateSlide(presentation, this.presentation.getCurrentSlide());
 	}
 
 	public void nextSlide() {

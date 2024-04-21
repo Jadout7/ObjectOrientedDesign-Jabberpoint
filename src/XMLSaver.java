@@ -15,7 +15,13 @@ public class XMLSaver implements AccessorSaver {
 		out.print("<showtitle>");
 		out.print(presentation.getTitle());
 		out.println("</showtitle>");
-		for (int slideNumber=0; slideNumber<presentation.getSize(); slideNumber++) {
+		parsePresentation(presentation, out);
+		out.println("</presentation>");
+		out.close();
+	}
+
+	private static void parsePresentation(Presentation presentation, PrintWriter out) {
+		for (int slideNumber = 0; slideNumber< presentation.getSize(); slideNumber++) {
 			Slide slide = presentation.getSlide(slideNumber);
 			out.println("<slide>");
 			out.println("<title>" + slide.getTitle() + "</title>");
@@ -40,7 +46,5 @@ public class XMLSaver implements AccessorSaver {
 			}
 			out.println("</slide>");
 		}
-		out.println("</presentation>");
-		out.close();
 	}
 }
