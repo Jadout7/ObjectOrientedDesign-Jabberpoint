@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagrams/JabberPointREFORMATTEDClassDiagram.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrams/JabberPointREFORMATTEDClassDiagram.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReformattingDescriptionReport/ReformatReport.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReformattingDescriptionReport/ReformatReport.md" afterDir="false" />
-    </list>
+    <list default="true" id="5251167c-dd8b-4223-b17d-9c8b603e17a6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1713615245429" duration="40184000" />
       <workItem from="1713727165426" duration="1806000" />
       <workItem from="1713729214620" duration="1446000" />
-      <workItem from="1713730917696" duration="3701000" />
+      <workItem from="1713730917696" duration="3977000" />
     </task>
     <servers />
   </component>

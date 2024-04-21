@@ -1,7 +1,7 @@
 # Object Oriented Design - Jabberpoint
 ______________________________________
 
-### 1. Directory for the Reformatted Code : Src Folder
+### 1. Directory for the Reformatted Code : JabberpointSRC Folder
 
 ### 2. Directory for the Reformatting Report : ReformattingDescriptionReport Folder
 
